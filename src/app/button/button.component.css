@@ -1,0 +1,33 @@
+.base {
+  outline: none;
+  cursor: pointer;
+}
+
+.base:active {
+  outline: none;
+  opacity: 0.75;
+}
+
+.base:hover {
+  opacity: 0.9;
+}
+
+.filled {
+  background-color: #FFB677;
+  border: none;
+  border-radius: 10px;
+
+  font-size: 20px;
+  font-weight: bold;
+  padding: 11px 20px;
+}
+
+.outlined {
+  background-color: transparent;
+  border: solid 1px #FFB677;
+  color: #FFB677;
+
+  font-size: 20px;
+  padding: 11px 20px;
+  border-radius: 10px;
+}
