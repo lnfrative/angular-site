@@ -16,17 +16,17 @@
       <div
         class="links"
       >
-        <div>Personal</div>
-        <div>Business</div>
-        <div>Company</div>
+        <div>{{ messages.PERSONAL }}</div>
+        <div>{{ messages.BUSINESS }}</div>
+        <div>{{ messages.COMPANY }}</div>
       </div>
     </div>
 
     <div
       class="buttons"
     >
-      <app-button design="outlined" title="Login"></app-button>
-      <app-button title="Sign up"></app-button>
+      <app-button design="outlined" [title]="messages.SIGN_IN"></app-button>
+      <app-button [title]="messages.SIGN_UP"></app-button>
     </div>
   </div>
 </div>

@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { ButtonComponent } from './button/button.component';
+import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    ButtonComponent
+    ButtonComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
