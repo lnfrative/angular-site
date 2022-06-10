@@ -4,6 +4,11 @@
   align-items: center;
   justify-content: center;
   min-height: 750px;
+
+  background-image: url('../../assets/images/hero.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .brand-title {
