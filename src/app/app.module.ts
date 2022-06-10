@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { ButtonComponent } from './button/button.component';
 import { HeroComponent } from './hero/hero.component';
+import { FeaturesComponent } from './features/features.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HeroComponent } from './hero/hero.component';
     HomeComponent,
     HeaderComponent,
     ButtonComponent,
-    HeroComponent
+    HeroComponent,
+    FeaturesComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

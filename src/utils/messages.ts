@@ -10,6 +10,7 @@ const messages = {
     BRAND_DESCRIPTION: 'Generate, receive, spend and manage crypto like never before.',
     START_NOW: 'Start now',
     LEARN_MORE: 'Learn more',
+    CONVENIENT: 'Effortlessly convenient',
   },
 }
 
