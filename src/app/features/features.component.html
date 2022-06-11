@@ -1,7 +1,21 @@
 <div class="container">
-  <div>
+  <div class="content">
     <div class="title">{{ messages.CONVENIENT }}</div>
 
+    <app-group-feature-action
+      [title]="messages.FREE_DEPOSITS"
+      [description]="messages.ASSETS_WITHOUT_COSTS"
+      srcImage="/assets/images/free_deposits.png"
+      position="normal"
+      bg="contrast"
+    ></app-group-feature-action>
 
+    <app-group-feature-action
+      [title]="messages.CHEAP_AND_FAST"
+      [description]="messages.CONVERT_ANY_LISTED"
+      srcImage="/assets/images/convert.png"
+      position="invert"
+      bg="transparent"
+    ></app-group-feature-action>
   </div>
 </div>

@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { ButtonComponent } from './button/button.component';
 import { HeroComponent } from './hero/hero.component';
 import { FeaturesComponent } from './features/features.component';
+import { GroupFeatureActionComponent } from './group-feature-action/group-feature-action.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FeaturesComponent } from './features/features.component';
     HeaderComponent,
     ButtonComponent,
     HeroComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    GroupFeatureActionComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
