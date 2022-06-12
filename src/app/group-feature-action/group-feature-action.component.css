@@ -32,6 +32,10 @@
   padding: 55px 80px 55px 200px;
 }
 
+.info {
+  max-width: 640px;
+}
+
 .bg-transparent {
   background-color: transparent;
 }
