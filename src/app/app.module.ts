@@ -10,6 +10,7 @@ import { HeroComponent } from './hero/hero.component';
 import { FeaturesComponent } from './features/features.component';
 import { GroupFeatureActionComponent } from './group-feature-action/group-feature-action.component';
 import { SectionCalculatorComponent } from './section-calculator/section-calculator.component';
+import { IncomeCalculatorComponent } from './income-calculator/income-calculator.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SectionCalculatorComponent } from './section-calculator/section-calcula
     HeroComponent,
     FeaturesComponent,
     GroupFeatureActionComponent,
-    SectionCalculatorComponent
+    SectionCalculatorComponent,
+    IncomeCalculatorComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

@@ -26,6 +26,9 @@ const messages = {
     AUTO_RECEIVE_MN_PROFIT: 'Automatically receive masternodes profit by just depositing coins with masternodes capabilities.',
     MILITARY_GRADE_SECURITY: 'Military-grade security',
     ALL_ASSETS_OFFLINE: 'All your assets are hold offline, and your info, AES-256 encrypted.',
+    ASSETS: 'Assets',
+    REDEFINING_PASIVE_INCOME: 'Redefining the way passive income works.',
+    GET_SCALABLE_INCOME: 'Get income in a comprehensive and scalable way via staking, masternoding and interest.',
   },
 }
 

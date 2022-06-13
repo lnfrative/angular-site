@@ -1,0 +1,25 @@
+.container {
+  max-width: 500px;
+}
+
+.label {
+  font-size: 20px;
+  color: #C49771;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.selector {
+  min-height: 70px;
+  background-color: #0E0E12;
+  border: solid 1px #27262C;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+
+  padding-left: 23px;
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 35px;
+}
