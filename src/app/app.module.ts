@@ -9,6 +9,7 @@ import { ButtonComponent } from './button/button.component';
 import { HeroComponent } from './hero/hero.component';
 import { FeaturesComponent } from './features/features.component';
 import { GroupFeatureActionComponent } from './group-feature-action/group-feature-action.component';
+import { SectionCalculatorComponent } from './section-calculator/section-calculator.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { GroupFeatureActionComponent } from './group-feature-action/group-featur
     ButtonComponent,
     HeroComponent,
     FeaturesComponent,
-    GroupFeatureActionComponent
+    GroupFeatureActionComponent,
+    SectionCalculatorComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
