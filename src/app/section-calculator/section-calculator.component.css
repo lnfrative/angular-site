@@ -1,3 +1,12 @@
+.container {
+  margin-top: 210px;
+}
+
+.container-content {
+  display: flex;
+  justify-content: center;
+}
+
 .title {
   font-size: 48px;
   text-align: center;
@@ -11,4 +20,13 @@
   font-weight: 300;
   color: #A09DAE;
   text-align: center;
+  margin-bottom: 60px;
+}
+
+.content {
+  max-width: 1510px;
+  background-color: #18171DBF;
+  border-top: solid 1px #313037;
+  flex: 1;
+  min-height: 630px;
 }
