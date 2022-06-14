@@ -11,6 +11,7 @@ import { FeaturesComponent } from './features/features.component';
 import { GroupFeatureActionComponent } from './group-feature-action/group-feature-action.component';
 import { SectionCalculatorComponent } from './section-calculator/section-calculator.component';
 import { IncomeCalculatorComponent } from './income-calculator/income-calculator.component';
+import { TopPerformAssetsComponent } from './top-perform-assets/top-perform-assets.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { IncomeCalculatorComponent } from './income-calculator/income-calculator
     FeaturesComponent,
     GroupFeatureActionComponent,
     SectionCalculatorComponent,
-    IncomeCalculatorComponent
+    IncomeCalculatorComponent,
+    TopPerformAssetsComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
