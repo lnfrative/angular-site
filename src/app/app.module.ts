@@ -12,6 +12,7 @@ import { GroupFeatureActionComponent } from './group-feature-action/group-featur
 import { SectionCalculatorComponent } from './section-calculator/section-calculator.component';
 import { IncomeCalculatorComponent } from './income-calculator/income-calculator.component';
 import { TopPerformAssetsComponent } from './top-perform-assets/top-perform-assets.component';
+import { SectionSmartSavingComponent } from './section-smart-saving/section-smart-saving.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TopPerformAssetsComponent } from './top-perform-assets/top-perform-asse
     GroupFeatureActionComponent,
     SectionCalculatorComponent,
     IncomeCalculatorComponent,
-    TopPerformAssetsComponent
+    TopPerformAssetsComponent,
+    SectionSmartSavingComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
