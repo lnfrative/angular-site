@@ -29,4 +29,14 @@
   border-top: solid 1px #313037;
   flex: 1;
   min-height: 630px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  padding: 0 70px;
+}
+
+.app-income-calculator {
+  flex: 1;
 }
