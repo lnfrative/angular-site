@@ -15,6 +15,8 @@ import { TopPerformAssetsComponent } from './top-perform-assets/top-perform-asse
 import { SectionSmartSavingComponent } from './section-smart-saving/section-smart-saving.component';
 import { SectionBuyCryptoComponent } from './section-buy-crypto/section-buy-crypto.component';
 import { GroupMinimalInfoComponent } from './group-minimal-info/group-minimal-info.component';
+import { SectionFAQComponent } from './section-faq/section-faq.component';
+import { FaqItemComponent } from './faq-item/faq-item.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { GroupMinimalInfoComponent } from './group-minimal-info/group-minimal-in
     TopPerformAssetsComponent,
     SectionSmartSavingComponent,
     SectionBuyCryptoComponent,
-    GroupMinimalInfoComponent
+    GroupMinimalInfoComponent,
+    SectionFAQComponent,
+    FaqItemComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

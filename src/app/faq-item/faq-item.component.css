@@ -1,0 +1,22 @@
+.question {
+  font-size: 30px;
+  color: #BB9677;
+  font-weight: 600;
+  line-height: 2;
+  margin-bottom: 10px;
+}
+
+.answer {
+  color: #D0CBE6;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.container {
+  padding: 35px;
+  box-sizing: border-box;
+
+  background: transparent linear-gradient(180deg, rgb(24, 23, 29, 40%) 0%, rgb(32, 31, 38, 40%) 100%) 0% 0% no-repeat padding-box;
+  border-top: rgb(146, 143, 161, 25%) solid 1px;
+}
