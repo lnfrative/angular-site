@@ -17,6 +17,7 @@ import { SectionBuyCryptoComponent } from './section-buy-crypto/section-buy-cryp
 import { GroupMinimalInfoComponent } from './group-minimal-info/group-minimal-info.component';
 import { SectionFAQComponent } from './section-faq/section-faq.component';
 import { FaqItemComponent } from './faq-item/faq-item.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FaqItemComponent } from './faq-item/faq-item.component';
     SectionBuyCryptoComponent,
     GroupMinimalInfoComponent,
     SectionFAQComponent,
-    FaqItemComponent
+    FaqItemComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
