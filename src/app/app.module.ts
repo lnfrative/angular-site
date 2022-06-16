@@ -13,6 +13,8 @@ import { SectionCalculatorComponent } from './section-calculator/section-calcula
 import { IncomeCalculatorComponent } from './income-calculator/income-calculator.component';
 import { TopPerformAssetsComponent } from './top-perform-assets/top-perform-assets.component';
 import { SectionSmartSavingComponent } from './section-smart-saving/section-smart-saving.component';
+import { SectionBuyCryptoComponent } from './section-buy-crypto/section-buy-crypto.component';
+import { GroupMinimalInfoComponent } from './group-minimal-info/group-minimal-info.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { SectionSmartSavingComponent } from './section-smart-saving/section-smar
     SectionCalculatorComponent,
     IncomeCalculatorComponent,
     TopPerformAssetsComponent,
-    SectionSmartSavingComponent
+    SectionSmartSavingComponent,
+    SectionBuyCryptoComponent,
+    GroupMinimalInfoComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

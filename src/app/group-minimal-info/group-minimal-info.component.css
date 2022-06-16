@@ -1,0 +1,44 @@
+.container {
+  max-width: 315px;
+}
+
+.container-image {
+  min-height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  min-height: 250px;
+  width: 100%;
+  border-top: rgb(146, 143, 161, 50%) solid 1px;
+  /*margin-top: 90px;*/
+  background: transparent linear-gradient(180deg, rgb(146, 143, 161, 4%) 0%, rgb(24, 23, 29, 4%) 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 15px 15px 5px #000000;
+
+  padding: 50px 30px 20px 30px;
+  box-sizing: border-box;
+}
+
+.title {
+  color: #BB9677;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  line-height: 2;
+}
+
+.image {
+  object-fit: contain;
+}
+
+.description {
+  margin-top: 15px;
+  color: #D0CBE6;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 2;
+}
