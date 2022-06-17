@@ -46,3 +46,42 @@
 
   font-size: 20px;
 }
+
+@media screen and (max-width: 1510px) {
+  .content {
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .logo {
+    max-width: 250px;
+  }
+}
+
+@media  screen and (max-width: 975px) {
+  .links {
+    display: none;
+  }
+
+  .content {
+    justify-content: space-between;
+  }
+
+  .menu {
+    flex: 0;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .logo-image-normal {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 515px) {
+  .logo-image-minimal {
+    display: none;
+  }
+}
