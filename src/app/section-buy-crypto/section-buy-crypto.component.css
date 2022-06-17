@@ -14,6 +14,8 @@
 
   padding: 0 15px;
   box-sizing: border-box;
+
+  margin: 200px 0px;
 }
 
 .content {
@@ -30,4 +32,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 740px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
 }
