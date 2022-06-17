@@ -43,3 +43,13 @@
     background-image: none;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .buttons {
+    min-width: 0;
+    flex-direction: column;
+    min-height: 140px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -7,6 +7,10 @@
 
   padding: 70px 0;
   margin-top: 200px;
+  margin-bottom: 100px;
+
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
 .section-top {
@@ -33,4 +37,27 @@
   font-size: 24px;
   font-weight: 300;
   color: #D0CBE6;
+  text-align: center;
+}
+
+@media screen and (max-width: 680px) {
+  .section-top {
+    flex-direction: column;
+  }
+
+  .links {
+    margin: 50px 0 90px 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .link {
+    margin: 15px 0;
+  }
 }
