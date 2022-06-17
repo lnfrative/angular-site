@@ -53,3 +53,49 @@
 .position-invert {
   flex-direction: row-reverse;
 }
+
+.image-normal {
+  margin-left: 80px;
+}
+
+.image-invert {
+  margin-right: 80px;
+}
+
+@media screen and (max-width: 1315px) {
+  .content-normal {
+    padding: 55px 80px 55px 80px;
+  }
+
+  .content-invert {
+    padding: 55px 80px 55px 80px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .position-invert {
+    flex-direction: column;
+  }
+
+  .position-normal {
+    flex-direction: column;
+  }
+
+  .content-normal {
+    padding: 80px 15px;
+  }
+
+  .content-invert {
+    padding: 80px 15px;
+  }
+
+  .image-normal {
+    margin-left: 0;
+    margin-top: 100px;
+  }
+
+  .image-invert {
+    margin-right: 0;
+    margin-top: 100px;
+  }
+}
