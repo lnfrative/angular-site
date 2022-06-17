@@ -9,6 +9,9 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
 .brand-title {
