@@ -24,8 +24,10 @@ export class HeroComponent implements OnInit {
     this.document.addEventListener('scroll', () => {
       const container = this.container?.nativeElement
       if (container && window) {
-        const scroll = window.scrollY / this.scrollAnimationDelay
-        container.style.setProperty('--scroll', `${scroll}px`)
+        if (window.scrollY < 1000) {
+          const scroll = window.scrollY / this.scrollAnimationDelay
+          container.style.setProperty('--scroll', `${scroll}px`)
+        }
       }
     })
   }
