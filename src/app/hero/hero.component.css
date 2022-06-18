@@ -1,3 +1,7 @@
+:root {
+  --scroll: 0;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -6,7 +10,7 @@
   min-height: 750px;
 
   background-image: url('../../assets/images/hero.png');
-  background-size: 100%;
+  background-size: calc(100% + var(--scroll));
   background-repeat: no-repeat;
   background-position: center;
 
