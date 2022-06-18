@@ -47,6 +47,30 @@
   font-size: 20px;
 }
 
+.soon {
+  position: relative;
+}
+
+.soon:after {
+  content: 'soon';
+  position: absolute;
+  top: 0;
+  right: -35px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #A09DAE;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+  color: inherit;
+}
+
+.link:hover {
+  opacity: 0.85;
+}
+
 @media screen and (max-width: 1510px) {
   .content {
     padding: 0 15px;
