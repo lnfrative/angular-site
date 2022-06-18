@@ -17,7 +17,7 @@
       <div
         class="links"
       >
-        <a class="link" href="https://app.dogecash.net">{{ messages.PERSONAL }}</a>
+        <a class="link" [href]="constants.CLIENTS_APP_URL">{{ messages.PERSONAL }}</a>
         <div class="soon">
           {{ messages.BUSINESS }}
         </div>
@@ -28,8 +28,12 @@
     <div
       class="buttons"
     >
-      <app-button design="outlined" [title]="messages.SIGN_IN"></app-button>
-      <app-button [title]="messages.SIGN_UP"></app-button>
+      <a [href]="constants.CLIENTS_APP_URL">
+        <app-button design="outlined" [title]="messages.SIGN_IN"></app-button>
+      </a>
+      <a [href]="constants.CLIENTS_APP_URL_SIGN_UP">
+        <app-button [title]="messages.SIGN_UP"></app-button>
+      </a>
     </div>
   </div>
 </div>

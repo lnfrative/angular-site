@@ -5,7 +5,11 @@
   </div>
 
   <div class="buttons">
-    <app-button [title]="messages.START_NOW"></app-button>
-    <app-button design="outlined" [title]="messages.LEARN_MORE"></app-button>
+    <a [href]="constants.CLIENTS_APP_URL">
+      <app-button [title]="messages.START_NOW"></app-button>
+    </a>
+    <a [href]="constants.CLIENTS_APP_URL_SIGN_UP">
+      <app-button design="outlined" [title]="messages.LEARN_MORE"></app-button>
+    </a>
   </div>
 </div>

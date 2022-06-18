@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 // utils
 import messages from '../../utils/messages'
+import constants from "../../utils/constants";
 
 @Component({
   selector: 'app-header',
@@ -10,6 +11,7 @@ import messages from '../../utils/messages'
 })
 export class HeaderComponent implements OnInit {
   messages = messages.en
+  constants = constants
 
   constructor() { }
 

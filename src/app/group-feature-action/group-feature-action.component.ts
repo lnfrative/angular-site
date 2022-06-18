@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 
 // utils
 import messages from "../../utils/messages";
+import constants from '../../utils/constants'
 
 @Component({
   selector: 'app-group-feature-action',
@@ -10,6 +11,7 @@ import messages from "../../utils/messages";
 })
 export class GroupFeatureActionComponent implements OnInit {
   messages = messages.en
+  constants = constants
 
   @Input() title: string = ''
   @Input() description: string = ''

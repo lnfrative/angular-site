@@ -3,6 +3,7 @@ import { DOCUMENT } from '@angular/common'
 
 // utils
 import messages from '../../utils/messages'
+import constants from '../../utils/constants'
 
 @Component({
   selector: 'app-hero',
@@ -13,6 +14,7 @@ import messages from '../../utils/messages'
 export class HeroComponent implements OnInit {
   scrollAnimationDelay = 4
   messages = messages.en
+  constants = constants
 
   @ViewChild('container') container: ElementRef | undefined;
 

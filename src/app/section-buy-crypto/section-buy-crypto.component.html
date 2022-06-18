@@ -28,14 +28,18 @@
   </div>
 
   <div class="buttons">
-    <app-button
-      design="filled"
-      title="Call to action"
-    ></app-button>
+    <a [href]="constants.CLIENTS_APP_URL">
+      <app-button
+        design="filled"
+        title="Call to action"
+      ></app-button>
+    </a>
 
-    <app-button
-      design="outlined"
-      title="Learn more"
-    ></app-button>
+    <a [href]="constants.CLIENTS_APP_URL_SIGN_UP">
+      <app-button
+        design="outlined"
+        title="Learn more"
+      ></app-button>
+    </a>
   </div>
 </div>

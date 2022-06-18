@@ -3,7 +3,9 @@
     <div class="info">
       <div class="title">{{ title }}</div>
       <div class="description">{{ description }}</div>
-      <app-button design="outlined" [title]="messages.CALL_TO_ACTION"></app-button>
+      <a [href]="constants.CLIENTS_APP_URL">
+        <app-button design="outlined" [title]="messages.CALL_TO_ACTION"></app-button>
+      </a>
     </div>
 
     <div class="image-{{ position }}">
