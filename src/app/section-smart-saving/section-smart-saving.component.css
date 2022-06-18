@@ -99,3 +99,22 @@ ul {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .number-line {
+    margin: 50px 0 0 0;
+    text-align: center;
+  }
+
+  .number-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 100px;
+  }
+
+  .number {
+    align-self: center;
+  }
+}
