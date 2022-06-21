@@ -62,6 +62,10 @@
   margin-right: 80px;
 }
 
+.image {
+  height: 240px;
+}
+
 @media screen and (max-width: 1315px) {
   .content-normal {
     padding: 55px 80px 55px 80px;
