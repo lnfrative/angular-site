@@ -11,6 +11,17 @@
   align-items: center;
 }
 
+.title:after {
+  content: 'soon';
+  position: absolute;
+  top: 0;
+  right: -55px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #D0CBE6;
+}
+
 .content {
   max-width: 1510px;
   min-height: 925px;
@@ -56,6 +67,8 @@
   font-weight: 600;
 
   margin-bottom: 50px;
+  position: relative;
+  display: inline-block;
 }
 
 .description {
