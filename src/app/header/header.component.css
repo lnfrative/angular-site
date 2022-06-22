@@ -71,6 +71,10 @@
   opacity: 0.85;
 }
 
+.logo-image-minimal {
+  display: none;
+}
+
 @media screen and (max-width: 1510px) {
   .content {
     padding: 0 15px;
@@ -98,15 +102,23 @@
   }
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (min-width: 380px) {
   .logo-image-normal {
     display: none;
+  }
+
+  .logo-image-minimal {
+    display: block;
   }
 }
 
 @media screen and (min-width: 515px) {
   .logo-image-minimal {
     display: none;
+  }
+
+  .logo-image-normal {
+    display: block;
   }
 }
 
