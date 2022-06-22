@@ -5,7 +5,7 @@
 .content {
   margin: auto;
 
-  max-width: 1515px;
+  max-width: 1350px;
   width: 100%;
 
   display: flex;
@@ -75,7 +75,7 @@
   display: none;
 }
 
-@media screen and (max-width: 1510px) {
+@media screen and (max-width: 1350px) {
   .content {
     padding: 0 15px;
     box-sizing: border-box;
