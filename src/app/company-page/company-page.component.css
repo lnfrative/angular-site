@@ -1,3 +1,11 @@
+.section-container {
+  max-width: 1350px;
+  padding: 0 15px;
+  box-sizing: border-box;
+
+  margin: auto;
+}
+
 .hero {
   width: 100%;
 
@@ -8,9 +16,6 @@
 
   min-height: calc(100vh - 175px);
 
-  max-width: 1350px;
-  padding: 0 15px;
-  box-sizing: border-box;
   margin: auto;
 }
 
@@ -20,10 +25,20 @@
   color: #E1DDEF;
   text-align: center;
 
-  margin-bottom: 25px;
+  margin: 0 0 25px 0;
+}
+
+.subtitle {
+  font-size: 60px;
+  font-weight: 600;
+  color: #E1DDEF;
+  text-align: center;
+
+  margin: 0 0 25px 0;
 }
 
 .description {
+  margin: 0;
   font-size: 32px;
   color: #A09DAE;
   font-weight: 300;
@@ -35,6 +50,24 @@
 
 strong {
   color: #FFB677;
+}
+
+.image {
+  margin: 265px 0 165px 0;
+
+  object-fit: contain;
+  width: 100%;
+
+  max-width: 1165px;
+}
+
+.world-map {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 450px) {
