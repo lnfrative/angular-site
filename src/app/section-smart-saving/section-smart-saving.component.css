@@ -135,3 +135,25 @@ ul {
     align-self: center;
   }
 }
+
+@media screen and (max-width: 454px) {
+  .title:after {
+    display: none;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .description {
+    font-size: 24px;
+  }
+
+  .number-line {
+    font-size: 24px;
+  }
+
+  .number {
+    font-size: 24px;
+  }
+}

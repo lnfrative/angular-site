@@ -19,3 +19,9 @@
   max-width: 1510px;
   width: 100%;
 }
+
+@media screen and (max-width: 454px) {
+  .title {
+    font-size: 30px;
+  }
+}

@@ -48,3 +48,9 @@
     min-height: 140px;
   }
 }
+
+@media screen and (max-width: 454px) {
+  .title {
+    font-size: 30px;
+  }
+}
