@@ -29,6 +29,7 @@ const messages = {
     ASSETS: 'Assets',
     REDEFINING_PASIVE_INCOME: 'Redefining the way passive income works.',
     GET_SCALABLE_INCOME: 'Get income in a comprehensive and scalable way via staking, masternoding and interest.',
+    CRYPTO_BELIEVERS: 'True crypto believers driven by adoption',
   },
 }
 
