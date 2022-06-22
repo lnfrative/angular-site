@@ -18,6 +18,7 @@ import { GroupMinimalInfoComponent } from './group-minimal-info/group-minimal-in
 import { SectionFAQComponent } from './section-faq/section-faq.component';
 import { FaqItemComponent } from './faq-item/faq-item.component';
 import { FooterComponent } from './footer/footer.component';
+import { CompanyPageComponent } from './company-page/company-page.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { FooterComponent } from './footer/footer.component';
     GroupMinimalInfoComponent,
     SectionFAQComponent,
     FaqItemComponent,
-    FooterComponent
+    FooterComponent,
+    CompanyPageComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
