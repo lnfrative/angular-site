@@ -1,6 +1,5 @@
 .section-container {
   max-width: 1350px;
-  padding: 0 15px;
   box-sizing: border-box;
 
   margin: auto;
@@ -53,8 +52,6 @@ strong {
 }
 
 .image {
-  margin: 265px 0 165px 0;
-
   object-fit: contain;
   width: 100%;
 
@@ -70,6 +67,19 @@ strong {
   justify-content: center;
 }
 
+.image-container {
+  margin: 265px 0 165px 0;
+  border-top: #313037 1px solid;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 1350px;
+  min-height: 923px;
+}
+
 @media screen and (max-width: 450px) {
   .title {
     font-size: 30px;
@@ -77,5 +87,11 @@ strong {
 
   .description {
     font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .section-container {
+    padding: 0 15px;
   }
 }
