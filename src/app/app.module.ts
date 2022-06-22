@@ -19,6 +19,7 @@ import { SectionFAQComponent } from './section-faq/section-faq.component';
 import { FaqItemComponent } from './faq-item/faq-item.component';
 import { FooterComponent } from './footer/footer.component';
 import { CompanyPageComponent } from './company-page/company-page.component';
+import { TeamMemberCardComponent } from './team-member-card/team-member-card.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { CompanyPageComponent } from './company-page/company-page.component';
     SectionFAQComponent,
     FaqItemComponent,
     FooterComponent,
-    CompanyPageComponent
+    CompanyPageComponent,
+    TeamMemberCardComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

@@ -1,0 +1,45 @@
+.image-container {
+  overflow: hidden;
+
+  width: 157px;
+  height: 157px;
+  border-radius: 100%;
+}
+
+.image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.info-container {
+  margin-left: 45px;
+}
+
+.name-container {
+  display: flex;
+}
+
+.name {
+  font-size: 30px;
+  color: #E1DDEF;
+  font-weight: 600;
+}
+
+.position {
+  margin-left: 10px;
+
+  font-size: 24px;
+  color: #A09DAE;
+  font-weight: 300;
+}
+
+.res-container {
+  margin-top: 15px;
+  display: flex;
+}
+
+.res {
+  color: #FFB677;
+  font-size: 20px;
+  font-weight: 600;
+}

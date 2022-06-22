@@ -1,0 +1,18 @@
+<div>
+  <div class="image-container">
+    <img class="image" [src]="srcImage" alt="Team avatar">
+  </div>
+
+  <div class="info-container">
+    <div class="name-container">
+      <div class="name">{{ name }}</div>
+      <div class="position">{{ position }}</div>
+    </div>
+
+    <div class="res-container">
+      <div *ngFor="let res in responsibilities" class="res">
+        <span>{{ res }}</span>
+      </div>
+    </div>
+  </div>
+</div>
