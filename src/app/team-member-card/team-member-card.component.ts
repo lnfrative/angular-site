@@ -9,7 +9,7 @@ export class TeamMemberCardComponent implements OnInit {
   @Input() srcImage: string = ''
   @Input() name: string = ''
   @Input() position: string = ''
-  @Input() responsibilities: string[] = []
+  @Input() tasks: string[] = []
 
   constructor() { }
 
