@@ -1,0 +1,30 @@
+.section-container {
+  max-width: 1350px;
+  box-sizing: border-box;
+
+  margin: 180px auto auto auto;
+  padding: 0 15px;
+}
+
+.container {
+  height: 100%;
+  background: transparent linear-gradient(180deg, #27262C 0%, #0E0E12 32%, #18171D 57%, #1E1D24 82%, #1F1E26 100%) 0% 0% no-repeat padding-box;
+}
+
+.title {
+  font-size: 63px;
+  color: #E1DDEF;
+  font-weight: 600;
+  text-align: center;
+
+  margin-bottom: 70px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 32px;
+  color: #A09DAE;
+  line-height: 1.5;
+
+  text-align: center;
+}

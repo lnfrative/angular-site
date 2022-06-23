@@ -20,6 +20,7 @@ import { FaqItemComponent } from './faq-item/faq-item.component';
 import { FooterComponent } from './footer/footer.component';
 import { CompanyPageComponent } from './company-page/company-page.component';
 import { TeamMemberCardComponent } from './team-member-card/team-member-card.component';
+import { TermsConditionsPageComponent } from './terms-conditions-page/terms-conditions-page.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { TeamMemberCardComponent } from './team-member-card/team-member-card.com
     FaqItemComponent,
     FooterComponent,
     CompanyPageComponent,
-    TeamMemberCardComponent
+    TeamMemberCardComponent,
+    TermsConditionsPageComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
