@@ -33,11 +33,11 @@
   color: #E1DDEF;
   text-align: center;
 
-  margin: 0 0 25px 0;
+  margin-bottom: 25px;
 }
 
 .description {
-  margin: 0;
+  margin: auto;
   font-size: 32px;
   color: #A09DAE;
   font-weight: 300;
@@ -96,6 +96,9 @@ strong {
   min-height: 1250px;
   background-color: rgba(81, 53, 30, 15%);
   margin-top: 160px;
+
+  padding-top: 155px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 450px) {
