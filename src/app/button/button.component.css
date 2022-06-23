@@ -1,4 +1,5 @@
 .base {
+  min-width: inherit;
   outline: none;
   cursor: pointer;
 }
