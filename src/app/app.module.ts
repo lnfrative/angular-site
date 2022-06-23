@@ -21,6 +21,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CompanyPageComponent } from './company-page/company-page.component';
 import { TeamMemberCardComponent } from './team-member-card/team-member-card.component';
 import { TermsConditionsPageComponent } from './terms-conditions-page/terms-conditions-page.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { TermsConditionsPageComponent } from './terms-conditions-page/terms-cond
     FooterComponent,
     CompanyPageComponent,
     TeamMemberCardComponent,
-    TermsConditionsPageComponent
+    TermsConditionsPageComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

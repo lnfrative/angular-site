@@ -1,0 +1,51 @@
+.container {
+  max-width: 500px;
+}
+
+.label {
+  color: #C49771;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.input {
+  outline: none;
+  background-color: rgba(14, 14, 18, 1);
+  border: solid 1px rgba(39, 38, 44, 1);
+  border-radius: 10px;
+  height: 70px;
+
+  width: 100%;
+
+  padding-left: 20px;
+  box-sizing: border-box;
+
+  font-size: 24px;
+  color: rgba(160, 157, 174, 1);
+
+  margin-bottom: 55px;
+  margin-top: 15px;
+}
+
+.textarea {
+  outline: none;
+  background-color: rgba(14, 14, 18, 1);
+  border: solid 1px rgba(39, 38, 44, 1);
+  border-radius: 10px;
+
+  width: 100%;
+
+  padding: 20px;
+  box-sizing: border-box;
+
+  font-size: 24px;
+  color: rgba(160, 157, 174, 1);
+
+  margin-top: 15px;
+  margin-bottom: 60px;
+  resize: none;
+}
+
+.button {
+  min-width: 155px;
+}
