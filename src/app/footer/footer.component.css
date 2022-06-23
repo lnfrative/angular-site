@@ -40,6 +40,16 @@
   text-align: center;
 }
 
+.link {
+  font-style: normal;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  opacity: 0.85;
+}
+
 @media screen and (max-width: 680px) {
   .section-top {
     flex-direction: column;
