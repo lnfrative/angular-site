@@ -10,17 +10,17 @@
   justify-content: center;
 }
 
-.hero {
+.container-hero {
   width: 100%;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background: transparent linear-gradient(180deg, rgba(14, 14, 17, 70%) 0%, rgba(24, 23, 29, 70%) 100%) 0% 0% no-repeat padding-box;
+  border: 1px solid rgba(39, 38, 44, 70%);
 
+  min-height: 100vh;
+}
+
+.hero {
   min-height: calc(100vh - 175px);
-
-  margin: auto;
 }
 
 .title {
@@ -39,6 +39,7 @@
   text-align: center;
 
   margin-bottom: 25px;
+  margin-top: 0;
 }
 
 .description {
@@ -64,17 +65,19 @@ strong {
   max-width: 1165px;
 }
 
-.world-map {
+.container-world {
   width: 100%;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  margin-top: 120px;
 }
 
 .image-container {
-  margin: 265px 0 165px 0;
+  margin: 100px 0 165px 0;
   border-top: #313037 1px solid;
   width: 100%;
 
@@ -84,6 +87,9 @@ strong {
 
   max-width: 1350px;
   min-height: 923px;
+
+  background: rgba(24, 23, 29, 0.5) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.4);
 }
 
 .team-cards {
