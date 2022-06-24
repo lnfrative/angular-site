@@ -1,5 +1,5 @@
 .container {
-  max-width: 315px;
+  max-width: 325px;
 }
 
 .container-image {
@@ -17,7 +17,7 @@
   background: transparent linear-gradient(180deg, rgba(146, 143, 161, 4%) 0%, rgba(24, 23, 29, 4%) 100%) 0% 0% no-repeat padding-box;
   box-shadow: 15px 15px 5px rgba(0, 0, 0, 4%);
 
-  padding-top: 50px;
+  padding: 50px 5px 5px 5px;
   box-sizing: border-box;
 
   font-size: 24px;
