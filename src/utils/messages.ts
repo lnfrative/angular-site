@@ -1,6 +1,7 @@
 const messages = {
   en: {
     APP_NAME: 'DogeCash',
+    APP_HOME_TITLE: 'DogeCash – Where crypto and cash meet',
     BRAND: 'Where crypto and cash meet.',
     SIGN_IN: 'Login',
     SIGN_UP: 'Sign up',

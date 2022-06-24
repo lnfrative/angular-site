@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser'
+import { Title, Meta } from '@angular/platform-browser'
+
+// utils
 import messages from '../../utils/messages'
+import metadata from "../../utils/metadata";
 
 @Component({
   selector: 'app-home',
@@ -9,10 +12,11 @@ import messages from '../../utils/messages'
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private title: Title) {}
+  constructor(private title: Title, private  meta: Meta) {}
 
   ngOnInit(): void {
-    this.title.setTitle(messages.en.APP_NAME)
+    this.title.setTitle(messages.en.APP_HOME_TITLE)
+    this.meta.addTags(metadata.landing, true)
   }
 
 }
