@@ -24,7 +24,15 @@ const metadata: Metadata = {
     },
     {
       property: 'og:image',
-      content: '/assets/images/meta/home.jpeg'
+      content: 'https://dogecash.net/assets/images/meta/home.jpeg'
+    },
+    {
+      property: 'twitter:card',
+      content: 'summary_large_image',
+    },
+    {
+      property: 'twitter:image',
+      content: 'https://dogecash.net/assets/images/meta/home.jpeg'
     }
   ]
 }
