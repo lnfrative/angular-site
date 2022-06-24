@@ -19,6 +19,10 @@ const metadata: Metadata = {
       content: 'DogeCash – Where crypto and cash meet',
     },
     {
+      property: 'og:description',
+      content: 'Generate, receive, spend and manage crypto like never before.',
+    },
+    {
       property: 'og:type',
       content: 'website',
     },
