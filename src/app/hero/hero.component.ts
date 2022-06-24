@@ -12,7 +12,7 @@ import constants from '../../utils/constants'
   encapsulation: ViewEncapsulation.Emulated,
 })
 export class HeroComponent implements OnInit {
-  scrollAnimationDelay = 4
+  scrollAnimationDelay = 6
   messages = messages.en
   constants = constants
 
@@ -24,7 +24,7 @@ export class HeroComponent implements OnInit {
     this.document.addEventListener('scroll', () => {
       const container = this.container?.nativeElement
       if (container && window) {
-        if (window.scrollY < 1000) {
+        if (window.scrollY < 1500) {
           const scroll = window.scrollY / this.scrollAnimationDelay
           container.style.setProperty('--scroll', `${scroll}px`)
         }
