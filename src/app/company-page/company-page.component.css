@@ -105,7 +105,7 @@ strong {
 .form-section {
   width: 100%;
   min-height: 1250px;
-  background-color: rgba(81, 53, 30, 15%);
+  background: rgba(81, 53, 30, 15%) 0% 0% no-repeat padding-box;
   margin-top: 160px;
 
   padding: 155px 0;
