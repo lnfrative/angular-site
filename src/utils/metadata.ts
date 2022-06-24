@@ -15,6 +15,10 @@ const metadata: Metadata = {
       content: 'Generate, receive, spend and manage crypto like never before.',
     },
     {
+      property: 'og:title',
+      content: 'Generate, receive, spend and manage crypto like never before.',
+    },
+    {
       property: 'og:type',
       content: 'website',
     },
@@ -33,7 +37,8 @@ const metadata: Metadata = {
     {
       property: 'twitter:image',
       content: 'https://dogecash.net/assets/images/meta/home.jpeg'
-    }
+    },
+
   ]
 }
 
