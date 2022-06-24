@@ -14,8 +14,8 @@
   min-height: 250px;
   width: 100%;
   border-top: rgba(187, 150, 119, 25%) solid 1px;
-  background: transparent linear-gradient(180deg, rgba(146, 143, 161, 4%) 0%, rgba(24, 23, 29, 4%) 100%) 0% 0%;
-  box-shadow: 15px 15px 5px #000000;
+  background: transparent linear-gradient(180deg, rgba(146, 143, 161, 4%) 0%, rgba(24, 23, 29, 4%) 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 15px 15px 5px rgba(0, 0, 0, 4%);
 
   padding-top: 50px;
   box-sizing: border-box;

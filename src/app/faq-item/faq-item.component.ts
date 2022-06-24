@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class FaqItemComponent implements OnInit {
   @Input() question: string = ''
   @Input() answer: string = ''
+  @Input() bg: 'secondary' | 'primary' = 'secondary'
 
   constructor() { }
 

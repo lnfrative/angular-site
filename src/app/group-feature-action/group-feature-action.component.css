@@ -39,11 +39,13 @@
 }
 
 .bg-transparent {
-  background-color: transparent;
+  background: rgba(24, 23, 29, 0.25) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.16);
 }
 
 .bg-contrast {
-  background-color: #18171D;
+  background: rgba(24, 23, 29, 0.5) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.4);
 }
 
 .position-normal {
