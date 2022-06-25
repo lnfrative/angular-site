@@ -15,14 +15,6 @@ const metadata: Metadata = {
       content: 'Generate, receive, spend and manage crypto like never before.',
     },
     {
-      property: 'og:title',
-      content: 'DogeCash – Where crypto and cash meet',
-    },
-    {
-      property: 'og:description',
-      content: 'Generate, receive, spend and manage crypto like never before.',
-    },
-    {
       property: 'og:type',
       content: 'website',
     },
@@ -31,18 +23,33 @@ const metadata: Metadata = {
       content: 'https://dogecash.net'
     },
     {
+      property: 'og:title',
+      content: 'DogeCash – Where crypto and cash meet',
+    },
+    {
+      property: 'og:description',
+      content: 'Generate, receive, spend and manage crypto like never before.',
+    },
+    {
       property: 'og:image',
       content: 'https://dogecash.net/assets/images/meta/home.jpeg'
     },
     {
-      property: 'twitter:card',
+      name: 'twitter:card',
       content: 'summary_large_image',
     },
     {
-      property: 'twitter:image',
+      name: 'twitter:title',
+      content: 'DogeCash – Where crypto and cash meet',
+    },
+    {
+      name: 'twitter:description',
+      content: 'Generate, receive, spend and manage crypto like never before.',
+    },
+    {
+      name: 'twitter:image',
       content: 'https://dogecash.net/assets/images/meta/home.jpeg'
     },
-
   ]
 }
 
