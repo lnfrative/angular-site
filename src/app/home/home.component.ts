@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title, Meta } from '@angular/platform-browser'
+import * as Aos from 'aos';
 
 // utils
 import messages from '../../utils/messages'
@@ -15,6 +16,7 @@ export class HomeComponent implements OnInit {
   constructor(private title: Title, private  meta: Meta) {}
 
   ngOnInit(): void {
+    Aos.init()
     this.title.setTitle(messages.en.APP_HOME_TITLE)
     this.meta.addTags(metadata.landing, true)
   }
