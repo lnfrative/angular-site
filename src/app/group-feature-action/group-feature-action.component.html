@@ -1,6 +1,11 @@
 <div>
   <div class="content-{{ position }} position-{{ position }} bg-{{ bg }}">
-    <div class="info">
+    <div
+      data-aos="fade"
+      data-aos-easing="linear"
+      data-aos-offset="300"
+      class="info"
+    >
       <div class="title">{{ title }}</div>
       <div class="description">{{ description }}</div>
       <a [href]="constants.CLIENTS_APP_URL">
