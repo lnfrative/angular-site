@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 // utils
 import constants from '../../utils/constants'
+import messages from "../../utils/messages";
 
 @Component({
   selector: 'app-section-buy-crypto',
@@ -10,6 +11,7 @@ import constants from '../../utils/constants'
 })
 export class SectionBuyCryptoComponent implements OnInit {
   constants = constants
+  messages = messages.en
 
   constructor() { }
 
