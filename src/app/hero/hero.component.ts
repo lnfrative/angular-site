@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation, ViewChild, ElementRef, Inject, OnDestroy } from '@angular/core'
+import { Component, AfterViewInit, ViewEncapsulation, ViewChild, ElementRef, Inject, OnDestroy } from '@angular/core'
 import { DOCUMENT } from '@angular/common'
 import {fromEvent, Observable, Subscription} from 'rxjs'
 
@@ -12,7 +12,7 @@ import constants from '../../utils/constants'
   styleUrls: ['./hero.component.css'],
   encapsulation: ViewEncapsulation.Emulated,
 })
-export class HeroComponent implements OnInit, OnDestroy {
+export class HeroComponent implements AfterViewInit, OnDestroy {
   private animation_subscription?: Subscription
 
   scroll_animation_delay = 5
@@ -23,7 +23,7 @@ export class HeroComponent implements OnInit, OnDestroy {
 
   constructor(@Inject(DOCUMENT) private document: Document) { }
 
-  ngOnInit(): void {
+  ngAfterViewInit(): void {
     this.animation_subscription = fromEvent(this.document, 'scroll').subscribe(this.scroll_animation)
   }
 
