@@ -16,6 +16,8 @@
 
   padding: 0 15px;
   box-sizing: border-box;
+
+  transition: background-size ease;
 }
 
 .brand-title {
@@ -42,12 +44,6 @@
   min-width: 300px;
 }
 
-@media screen and (max-width: 1280px) {
-  .container {
-    background-image: none;
-  }
-}
-
 @media screen and (max-width: 350px) {
   .buttons {
     min-width: 0;
@@ -65,5 +61,35 @@
 
   .brand-description {
     font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .container {
+    background-size: calc(110% + var(--scroll));
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .container {
+    background-size: calc(120% + var(--scroll));
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .container {
+    background-size: calc(125% + var(--scroll));
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .container {
+    background-size: calc(135% + var(--scroll));
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    background-image: none;
   }
 }
